@@ -1,0 +1,388 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+   line-height: 24px;
+
+}
+html{
+	scroll-behavior: smooth;
+}
+h1,h2,h3,h4,h5,h6{
+   font-family: 'Playfair Display', serif;
+}
+a,a:hover{
+	text-decoration: none
+}
+.col-md-3{
+  width: 22%;
+}
+.col-md-4 {
+    flex: 0 0 auto;
+    width: 30.333%;
+  }
+/* header section start*/
+.header-section{
+	width: 100%;
+	padding: 20px 20px;
+}
+.head-left{
+    text-align: center;
+    text-align: center;
+}
+.head-left h1{
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.head-right{
+
+}
+.head-right ul{
+   
+}
+.head-right ul li{
+    display: inline-block;
+    display: inline-block;
+padding: 5px 25px;
+text-align: center;
+}
+.head-right ul li a{
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    text-transform: uppercase;
+}
+
+/* header section end*/
+/* banner section start*/
+.banner{
+	width: 100%;
+	background: url("../img/cv.png") ;
+	background-size: cover;
+}
+.banner .area-top{
+  margin-top: 488px;
+margin-left: 143px
+
+}
+
+.banner .area-top h1{
+  letter-spacing: 5px;
+font-weight: 600;
+padding: 10px 0px;
+}
+.banner .area-top p{
+   letter-spacing: 1px;
+font-weight: 400;
+padding: 0px 0px;
+font-size: 28px;
+}
+.banner-right{
+    width: 100%;
+padding: 80px 0px;
+margin-top: 457px;
+margin-left: 271px;
+}
+.banner-right .btn-info{
+	padding: 13px 40px;
+border: none;
+border-radius: 25px;
+background: #e8bf5d;
+color: #000;
+font-size: 14px;
+}
+.banner-right .btn-info:hover{
+	background:transparent;
+}
+/* banner section end*/
+.about{
+   width: 100%;
+padding: 60px 0px;
+background-color: #ffffff;
+}
+.about .area-top h1{
+  color: #000;
+}
+.about-main p{
+  font-size: 14px;
+  line-height: 24px;
+  color:#666666;
+  margin-left: 27%;
+}
+.about-main{
+  width: 100%;
+
+}
+.about-items{
+  width: 100%;
+padding: 40px 0px;
+margin-left: 172px;
+}
+.about-items h1{
+  font-size: 24px;
+  }
+.about-items h2{
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.about-items p{
+
+font-size: 14px;
+}
+.about-items2{
+  width: 114%;
+padding: 40px 0px;
+margin-left: -170px;
+}
+.about-items2 h2{
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 3px;
+}
+.about-items2 p{
+  font-size: 14px;
+  line-height: 24px;
+  color: #666666;
+}
+/* banner section end*/
+/* area section start*/
+.area-section{
+  width: 100%;
+  padding: 80px 0px;
+  background-color: #000;
+}
+.area-top{
+  width: 100%;
+}
+.area-top img{
+  margin-left: 145px;
+margin-top: 14px;
+}
+.area-top h1{
+  font-size: 40px;
+color: #fff;
+margin-left: -62px;
+}
+.area-top p{
+  font-size: 18px;
+color: #fff;
+margin-left: -62px;
+color: #b9b9b9;
+}
+.area-section h2{
+   margin-left: 149px;
+}
+.card-text p{
+  margin-left: 155px;
+font-size: 14px;
+}
+/* area section end*/
+/* attorny section start*/
+.attorny-section{
+   width: 100%;
+  padding: 80px 0px;
+ 
+}
+.attorny-section .area-top h1{
+  color: #000;
+}
+.att-items{
+  width: 100%;
+padding: 40px 0px;
+margin-left: 146px;
+}
+.att-items h4{
+   margin-top: 12px;
+}
+.att-items p{
+  color: #666666;
+  font-size: 14px;
+}
+/* attorny section end*/
+/* say section start*/
+.say-section{
+  width: 100%;
+  padding: 80px 0px;
+  background-color: #000;
+
+}
+.say-foot{
+  width: 100%;
+  padding: 60px 0px
+}
+.say-foot img{
+  font-size: 100px;
+width: 75%;
+margin-left: 160px;
+}
+.say-foot p{
+  font-size: 14px;
+color: #fff;
+margin-left: 100px;
+}
+.say-foot h4{
+  font-size: 24px;
+color: #fff;
+margin-left: 100px;
+margin-top: 33px;
+}
+/* say section end*/
+/* publication section start*/
+.publication-section{
+   width: 100%;
+  padding: 80px 0px;
+ 
+}
+.publication-section .area-top h1{
+  color: #000;
+  font-weight: 500;
+}
+.publication-foot{
+  width: 100%;
+margin-left: 144px;
+padding: 60px 0px;
+}
+.publication-foot h4{
+    font-size: 27px;
+margin-top: 20px;
+}
+.publication-text strong{
+margin-left: 140px;
+color: #cbcbcb;
+font-size: 14px;
+}
+.publication-foot p{
+     font-size: 14px;
+  line-height: 24px;
+  color: #cbcbcb;
+}
+.publication-items h4{}
+.publication-items p{
+
+}
+/* publication section end*/
+/* asked section start*/
+
+.asked-section{
+  width: 100%;
+  padding: 80px 0px;
+  background-color: #000;
+
+}
+.asked-items{
+  width: 100%;
+padding: 60px 0px;
+margin-left: 121px;
+}
+.asked-items ul{
+  list-style: none;
+}
+.asked-items ul li{
+  border-bottom: 1px solid #e8bf5d;
+padding: 8px 5px;
+}
+.asked-items ul li a{
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}
+.asked-items ul li a:hover{
+  color: #e8bf5d;
+}
+.asked-items2{
+ width: 100%;
+background-color: #e8bf5d;
+padding: 60px 51px;
+margin-left: 121px;
+margin-top: 114px;
+border-radius: 2%;
+}
+/* contact section stsrt*/
+.contact-section{
+   width: 100%;
+  padding: 80px 0px;
+ 
+}
+.contact-section .area-top h1{
+  color: #000;
+  font-weight: 500;
+}
+.main-from{
+   margin-left: 204px;
+margin-top: 28px;
+
+}
+.main-from ul{
+  list-style: none;
+padding: 10px 0px;
+}
+.main-from ul li{
+  border-bottom: 1px solid #d6d6d6;
+padding: 8px 5px;
+}
+.main-from ul li a{
+  font-size: 16px;
+color: #b9b9b9;
+font-weight: 500;
+}
+.contact-from img{
+  width: 239px;
+margin-left: 5px;
+margin-top: 34px;
+}
+.main-from .btn-primary {
+    color: #000;
+    background-color: #e8bf5d;
+    border-color: #e8bf5d;
+    border-radius: 18px;
+}
+/* contact section end*/
+
+.footer-section{
+  width: 100%;
+    background: #000;
+}
+.top-header{
+  width: 100%;
+
+  padding: 5px 0px;
+}
+.info-head{
+  width:100%;
+}
+.info-head h4 {
+  color: #fff;
+padding: 10px;
+}
+.header-icon{
+  width: 100%
+}
+.header-icon ul{
+  width: 100%;
+display: block;
+padding: 8px;
+margin-left: 106px;
+}
+.header-icon ul li{
+  list-style: none;
+  display: inline-block;
+}
+.header-icon ul li a{
+  font-size: 16px;
+  font-weight: 600;
+  color:#506a85; 
+  margin-right:10px;
+}
+.header-icon ul li a .fa{
+  margin-right: 5px;
+    font-size: 16px;
+    color: #fff;
+}
+.header-icon ul li a:hover{
+  color: #00bc9c;
+}
